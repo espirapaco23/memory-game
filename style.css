@@ -1,0 +1,19 @@
+body {
+  background-color: antiquewhite;
+  font-style: "helvetica";
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 300px 100px;
+  justify-content: space-around;
+}
